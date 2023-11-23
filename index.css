@@ -1,0 +1,40 @@
+header {
+    width: 100%;
+    font-size: 0.8rem;
+    position: absolute;
+    text-align: center;  
+    top:0.9rem;   
+}
+body {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;   
+}
+
+.wrapper_buttons{
+    display: flex;    
+}
+.wrapper_buttons button {
+    width: 8rem;
+    height: 2rem;    
+    margin: 0.5rem; 
+    border-radius: 0.5rem;
+    border: none;
+}
+.wrapper_buttons button:hover {
+    outline: #666 1px solid;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    
+ height: calc(100% - 3rem);
+    
+    margin: auto;
+    top:20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
